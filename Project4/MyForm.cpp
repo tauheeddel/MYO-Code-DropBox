@@ -4,7 +4,7 @@
 #include<winsock2.h>
 #include<WS2tcpip.h>
 
-//added by Tauheed
+//This code is resposible for accepting speech input from client and fuse them to control robotic arm
 
 
 using namespace System;
