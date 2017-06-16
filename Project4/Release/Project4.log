@@ -1,0 +1,18 @@
+﻿Build started 6/16/2017 3:28:05 PM.
+     1>Project "C:\Users\tkhanmo\Dropbox\Tauheed_Research\001 MyoDuino exe + myo-sdk-win-0.9.0 - Lab (Working Copy)\01 Dev\MyoDuino_source_v1.0\Project4\Project4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\sdk\include /I"C:\Users\jake.chapeskie\Documents\Visual Studio 2013\Projects\Project4\sdk\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp
+         MyForm.cpp
+     1>c:\users\tkhanmo\dropbox\tauheed_research\001 myoduino exe + myo-sdk-win-0.9.0 - lab (working copy)\01 dev\myoduino_source_v1.0\project4\MyForm.h(162): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\tkhanmo\dropbox\tauheed_research\001 myoduino exe + myo-sdk-win-0.9.0 - lab (working copy)\01 dev\myoduino_source_v1.0\project4\MyForm.h(168): warning C4101: 'ie' : unreferenced local variable
+     1>c:\users\tkhanmo\dropbox\tauheed_research\001 myoduino exe + myo-sdk-win-0.9.0 - lab (working copy)\01 dev\myoduino_source_v1.0\project4\MyForm.h(196): warning C4101: 'e' : unreferenced local variable
+     1>MyForm.cpp(132): warning C4101: 'iSendResult' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tkhanmo\Dropbox\Tauheed_Research\001 MyoDuino exe + myo-sdk-win-0.9.0 - Lab (Working Copy)\01 Dev\MyoDuino_source_v1.0\Release\MyoDuino.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\sdk\lib myo32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Release\Project4.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\tkhanmo\Dropbox\Tauheed_Research\001 MyoDuino exe + myo-sdk-win-0.9.0 - Lab (Working Copy)\01 Dev\MyoDuino_source_v1.0\Release\MyoDuino.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\MyForm.obj
+         "Release\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+         Project4.vcxproj -> C:\Users\tkhanmo\Dropbox\Tauheed_Research\001 MyoDuino exe + myo-sdk-win-0.9.0 - Lab (Working Copy)\01 Dev\MyoDuino_source_v1.0\Release\MyoDuino.exe
+     1>Done Building Project "C:\Users\tkhanmo\Dropbox\Tauheed_Research\001 MyoDuino exe + myo-sdk-win-0.9.0 - Lab (Working Copy)\01 Dev\MyoDuino_source_v1.0\Project4\Project4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.21
