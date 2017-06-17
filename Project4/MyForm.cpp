@@ -5,6 +5,7 @@
 #include<WS2tcpip.h>
 
 //This code is resposible for accepting speech input from client and fuse them to control robotic arm
+//Comment from clone
 
 
 using namespace System;
