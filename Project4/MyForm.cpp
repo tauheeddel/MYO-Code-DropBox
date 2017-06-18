@@ -328,10 +328,11 @@ DWORD WINAPI MyThreadFunction2(LPVOID lpParam)
 
 					//String^ poseStrorageString = gcnew String(poseString.c_str());
 					if (SerialPortToDevice->IsOpen) {
-						for (int i = 0; i < 3; i++){
+						for (int i = 0; i < 8; i++) {
 							SerialPortToDevice->WriteLine("doubleTap");
 							Sleep(300);
 						}
+
 					}
 					ZeroMemory(recvbuf, recvbuflen);
 					//Sleep(1000);
